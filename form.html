@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+
+    <meta charset="UTF-8">
+	<title>Formulaire de contact</title>
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Formulaire de contact</h1>
+    </header>
+
+	<form action="" method="post">
+		<fieldset>
+			<legend>Informations personnelles</legend>
+			<label>Nom : <input type="text" name="nom"></label>
+			<label>Prénom : <input type="text" name="prenom"></label>
+			<label>Age : 
+				<select name="age">
+					<option value="20">0-20 ans</option>
+					<option value="40" selected>21-40 ans</option>
+					<option value="60">41-60 ans</option>
+					<option value="80">61-80 ans</option>
+				</select>
+			</label>
+		</fieldset>
+
+		<fieldset>
+			<legend>Compte à créer</legend>
+			<label>Pseudo : <input type="text" name="pseudo"></label>
+			<label>Mot de passe : <input type="password" name="password"></label>
+
+			<p>S'abonner à la newsletter ?</p>
+			<label>Oui<input type="radio" name="ouinon" value="1"></label>
+			<label>Non<input type="radio" name="ouinon" value="0"></label>
+		</fieldset>
+
+		<input type="submit" name="envoi" value="Valider">
+	</form>
+
+	<a href="index.html" title="retour">Retour à la page d'accueil</a>
+
+  </body>
+</html>
+
