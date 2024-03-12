@@ -26,6 +26,7 @@ p {
 /* -------------------- Header -------------------- */
 
 header {
+	height: 500px;
 	/* marges */
 	margin-bottom: 30px;
 	padding: 20px 0;
@@ -59,7 +60,7 @@ h1, header p {
 	padding: 0;
 }
 
-#menu ul li {
+#menu li {
 	/* margin */
 	margin: 10px 0;
 
@@ -67,7 +68,7 @@ h1, header p {
 	list-style: none;
 }
 
-#menu ul li:nth-of-type(even) {
+#menu li:nth-of-type(even) {
 	/* alignment */
 	text-align: right;
 }
