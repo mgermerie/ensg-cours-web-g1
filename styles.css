@@ -1,4 +1,155 @@
-a:hover {
-	color: red;
-	font-weight: bold;
+html {
+	/* marging */
+	margin: 0;
+
+	/* colors */
+	background-color: #eff2f5;
 }
+
+body {
+	/* dimensions */
+	width: 980px;
+
+	/* alignment */
+	margin: 0 auto;
+
+	/* colors */
+	background-color: #ffffff;
+}
+
+p {
+	/* alignment */
+	text-align: justify;
+}
+
+
+/* -------------------- Header -------------------- */
+
+header {
+	/* marges */
+	margin-bottom: 30px;
+	padding: 20px 0;
+
+	/* colors */
+	background-color: #54d72f;
+}
+
+h1, header p {
+	/* alignment */
+	text-align: center;
+}
+
+
+/* -------------------- Navigation menu -------------------- */
+
+#menu {
+	/* dimensions */
+	width: 40%;
+
+	/* marging */
+	margin: 30px auto;
+}
+
+#menu h2 {
+	/* alignment */
+	text-align: center;
+}
+
+#menu ul {
+	padding: 0;
+}
+
+#menu ul li {
+	/* margin */
+	margin: 10px 0;
+
+	/* lists */
+	list-style: none;
+}
+
+#menu ul li:nth-of-type(even) {
+	/* alignment */
+	text-align: right;
+}
+
+#menu ul li a {
+	/* dimensions */
+	display: block;
+	width: 100%;
+}
+
+#menu ul li a:visited:not([isRedirection]) {
+	/* colors */
+	color: blue;
+}
+
+#menu ul li a:hover {
+	/* colors */
+	color: orange !important;
+	background-color: blue;
+}
+
+
+/* -------------------- Content -------------------- */
+
+section {
+	/* dimensions */
+	overflow: auto;
+}
+
+section h2 {
+	/* margin */
+	margin: 30px;
+}
+
+section p {
+	/* margin */
+	margin: 15px 30px;
+}
+
+section strong, section em {
+	/* colors */
+	color: green;
+}
+
+#partie1 p {
+	/* dimensions */
+	width: calc(80% - 60px);
+
+	/* position */
+	float: right;
+
+	/* margin */
+	margin-top: 0;
+}
+
+#partie1 img {
+	/* dimensions */
+	display: block;
+	width: calc(20% - 30px);
+
+	/* position */
+	float: left;
+
+	/* margin */
+	margin-left: 30px;
+}
+
+
+/* -------------------- Footer -------------------- */
+
+footer {
+	/* margin */
+	margin-top: 30px;
+	padding: 40px;
+
+	/* colors */
+	background-color: #54d72f;
+}
+
+footer * {
+	/* alignment */
+	margin: 0 auto;
+	text-align: center;
+}
+
